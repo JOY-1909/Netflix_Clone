@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Roboto:wght@100&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main-banner {
+    background-image: url(/image/bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: (1200px, 100vw);
+    height: 100vh;
+    position: relative;
+}
+
+.main-banner .box {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.nav {
+    max-width: 70vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+    height: 70px;
+
+
+}
+
+.text {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    line-height: 55px;
+    padding: 30px;
+    text-align: center;
+
+
+}
+
+.text h1 {
+    font-size: 50px;
+}
+
+.nav .click-btn {
+    background-color: red;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 4px;
+    border: 1px solid red;
+    cursor: pointer;
+
+}
+
+.nav .tra-btn {
+    background-color: rgba(248, 243, 342, 0.021);
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 3px 8px;
+}
+
+.sin .click-btn {
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+    border: solid red;
+    cursor: pointer;
+}
+
+.sin input {
+    background-color: rgba(23, 23, 23, 0.7);
+    padding: 7px 101px 8px 14px;
+    font-weight: 900;
+    font-size: 12px;
+    border-radius: 4px;
+    border: 1px solid white;
+    color: white;
+
+
+}
+
+.sin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.sepration {
+    height: 5px;
+    width: 100%;
+    background-color: rgba(37, 34, 34, 0.74);
+
+}
+
+.section-1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+
+}
+
+.section-1 .png img {
+    height: 400px;
+    width: 500px;
+    position: relative;
+    z-index: 10;
+
+}
+
+.section-1 .png video {
+    position: absolute;
+    top: 36px;
+    right: 188px;
+    height: 312px;
+    width: 365px;
+    overflow: hidden;
+}
+.section-1 h1{
+    font-size: 50px;
+}
+.section-2 .card{
+    height: 108px;
+    width: 300px;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+.section-2 .png .card img{
+    height: 90px;
+    width: 80px;
+}
+.card{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+top: -141px;
+right: -99px;
+background-color: black;
+
+}
+.section-2 .png img{
+    height: 400px;
+    width: 500px;
+}
+.section-2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
